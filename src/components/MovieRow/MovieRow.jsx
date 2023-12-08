@@ -20,11 +20,7 @@ function MovieRow(props) {
         <h1 className="text-white text-lg ml-3 font-bold">{title}</h1>
         <div className="flex overflow-x-scroll overflow-y-hidden p-3 posters">
           {movies
-            ? movies.map((e, i) => (
-                
-                  <Movie key={i} url={e.poster_path} />
-                
-              ))
+            ? movies.map((e, i) => <Movie key={i} url={e.poster_path} />)
             : ""}
         </div>
       </div>
