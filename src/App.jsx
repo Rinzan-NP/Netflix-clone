@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner/Banner";
 import MovieRow from "./components/MovieRow/MovieRow";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from './components/Footer/footer'
 import {
   trending,
   action,
@@ -24,6 +25,7 @@ function App() {
       <MovieRow title="Horror Movies" url={HorrorMovies} />
       <MovieRow title="Romance Movies" url={RomanceMovies} />
       <MovieRow title="Action Movies" url={ActionMovies} />
+      <Footer/>
     </>
   );
 }
