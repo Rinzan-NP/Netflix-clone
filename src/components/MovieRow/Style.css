@@ -1,0 +1,8 @@
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.movie-image{
+    max-height: 250px;
+    margin-right: 10px;
+
+}
