@@ -6,3 +6,7 @@
     margin-right: 10px;
 
 }
+.movie-large{
+    width: 300px;
+    max-height: 200px;
+}
